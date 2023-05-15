@@ -1,5 +1,5 @@
 import "./App.css";
-import Menu from "./menu";
+import Hero from "./Hero";
 import Navbar from "./navbar";
 import Rooms from "./rooms";
 
@@ -7,8 +7,8 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <h1 className="App-link">React Hotel App</h1>
-      <Menu />
+      <h1 className="App-link">My Hotel</h1>
+      <Hero />
       <Rooms />
     </div>
   );
