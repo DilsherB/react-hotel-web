@@ -9,8 +9,8 @@ const menuItems = {
 // Navbar component
 const Navbar = () => {
   return (
-    <div className="d-inline-flex bg-dark px-3 rounded w-100 fix-top">
-      <a href="#home">
+    <div className="d-inline-flex px-3 w-100">
+      <a href="#home" className="text-decoration-none">
         <img
           src="https://img.freepik.com/premium-vector/hotel-logo-simple-illustration_434503-736.jpg?w=200"
           alt="Logo"
@@ -19,6 +19,7 @@ const Navbar = () => {
           className="rounded-circle mt-2"
         />
       </a>
+      <h3 className="mt-2 col-2">My Hotel</h3>
       <ul className="d-flex justify-content-end gap-5 w-100 mt-2">
         {Object.keys(menuItems).map((item) => (
           <li key={item} className="list-group-item">

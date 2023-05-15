@@ -7,7 +7,6 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <h1 className="App-link">My Hotel</h1>
       <Hero />
       <Rooms />
     </div>
