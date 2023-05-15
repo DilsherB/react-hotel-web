@@ -1,13 +1,13 @@
 import React from "react";
 
-const menuItems = {
-  home: "Home",
-  about: "About",
-  contact: "Contact",
-  categories: "categories"
-};
 // Navbar component
 const Navbar = () => {
+  const menuItems = {
+    home: "Home",
+    about: "About",
+    contact: "Contact",
+    categories: "categories"
+  };
   return (
     <div className="d-inline-flex px-3 w-100">
       <a href="#home" className="text-decoration-none">
