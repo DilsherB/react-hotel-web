@@ -6,8 +6,8 @@ import Rooms from "./rooms";
 function App() {
   return (
     <div className="App">
-      <h1 className="App-link">React Hotel App</h1>
       <Navbar />
+      <h1 className="App-link">React Hotel App</h1>
       <Menu />
       <Rooms />
     </div>
