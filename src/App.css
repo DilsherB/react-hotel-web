@@ -21,3 +21,15 @@
 .App-link {
   color: #61dafb;
 }
+
+@media only screen and (max-width: 810px) {
+  .heroStyle {
+    font-size: 70%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .heroStyle {
+    font-size: 50%;
+  }
+}
