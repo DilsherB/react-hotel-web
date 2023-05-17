@@ -39,8 +39,14 @@ button {
     font-size: 70%;
   }
   button {
-    /* font-size: 100% !important; */
     padding: 0 5px 0 5px!important;
+  }
+  h3 {
+    font-size: 90% !important;
+    display: flex;
+    align-items: center;
+    min-width: max-content;
+    padding-left: 15px;
   }
 }
 
@@ -59,5 +65,12 @@ button {
   button {
     font-size: 100% !important;
     padding: 0 5px 0 5px!important;
+  }
+  h3 {
+    font-size: 90% !important;
+    display: flex;
+    align-items: center;
+    min-width: max-content;
+    padding-left: 15px;
   }
 }

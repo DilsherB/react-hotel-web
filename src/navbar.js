@@ -6,7 +6,6 @@ const Navbar = () => {
     home: "Home",
     about: "About",
     contact: "Contact",
-    categories: "categories"
   };
   return (
     <div className="d-inline-flex px-3 w-100">
