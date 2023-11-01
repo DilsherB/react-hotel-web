@@ -21,6 +21,15 @@ code {
 
 body {
   background-color: var(--main-color);
+  color: var(--text-color);
+}
+
+a {
+  color: var(--link-color);
+}
+
+a:visited {
+  color: aqua;
 }
 
 .hotelName {
