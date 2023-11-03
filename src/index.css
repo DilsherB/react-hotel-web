@@ -22,6 +22,7 @@ code {
 body {
   background-color: var(--main-color);
   color: var(--text-color);
+  text-align: center;
 }
 
 a {
@@ -32,17 +33,15 @@ a:visited {
   color: aqua;
 }
 
-.hotelName {
-  text-align: center;
-}
-
 .heroContainer {
-  height: 80vh;
+  height: 100vh;
+  width: 100vw;
 }
 
 .hero {
-  background-image: url("../images/hero.jpeg");
+  background-image: url("../images/hotel.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100%;
+  height: 100vh;
+  width: 100vw;
 }
