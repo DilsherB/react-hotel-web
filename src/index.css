@@ -35,3 +35,14 @@ a:visited {
 .hotelName {
   text-align: center;
 }
+
+.heroContainer {
+  height: 80vh;
+}
+
+.hero {
+  background-image: url("../images/hero.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
