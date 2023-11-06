@@ -5,3 +5,23 @@
   margin: 0;
   padding: 0;
 }
+
+.heroTextSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  text-shadow: 2px 5px 5px black;
+  height: 85vh;
+  font-size: 130%;
+}
+
+.heroHeading {
+  font-size: 3rem;
+  text-shadow: 2px 5px 5px white;
+}
+
+.heroTextSection p {
+  width: 50vw;
+}
