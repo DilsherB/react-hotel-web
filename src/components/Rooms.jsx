@@ -3,9 +3,9 @@ import Room from "./Room";
 
 const Rooms = () => {
   return (
-    <div>
+    <section className="rooms">
       <Room />
-    </div>
+    </section>
   );
 };
 
